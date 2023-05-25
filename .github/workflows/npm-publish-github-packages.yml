@@ -17,7 +17,9 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm test
-
+theme: jekyll-theme-minimal
+title: Janzel2015's homepage
+description: Bookmark this to keep an eye on my project updates!
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
